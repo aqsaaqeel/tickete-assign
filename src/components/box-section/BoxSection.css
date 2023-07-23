@@ -1,0 +1,10 @@
+.box-section-heading {
+  color: var(--grayscale-g-2, #474747);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+}
+.box-section-container{
+    padding: 1.5rem 0;
+}

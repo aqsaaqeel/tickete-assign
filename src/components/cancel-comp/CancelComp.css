@@ -1,0 +1,38 @@
+.cancel-comp-container > p{
+    margin: 0;
+    padding: 0;
+}
+.cancel-comp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 297px;
+  padding: 16px;
+  align-items: flex-start;
+  background-color: var(--grayscale-g-8);
+  border-radius: 12px;
+}
+.cancel-comp-heading {
+  color: var(--grayscale-g-2, #474747);
+
+  /* UI/Small/Heavy */
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+}
+.cancel-comp-details {
+  color: var(--grayscale-g-3, #595959);
+
+  /* Paragraph/Small/Regular */
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+/* .cancel{
+    padding: 16px;
+} */

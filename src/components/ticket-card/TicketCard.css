@@ -1,0 +1,36 @@
+.ticket-heading {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.36px;
+}
+.ticket-details {
+  color: var(--grayscale-g-2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  display: flex;
+  justify-content: space-between;
+}
+.green {
+  color: var(--green);
+}
+.underline {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+  text-decoration-line: underline;
+}
+.gray-3{
+    color: var(--grayscale-g-3);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+p.small{
+    font-size: 12px;
+    font-weight: 400;
+}

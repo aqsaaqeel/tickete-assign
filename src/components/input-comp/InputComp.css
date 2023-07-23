@@ -1,0 +1,31 @@
+.input-value {
+  width: 384px;
+  height: 60px;
+
+  border-radius: 12px;
+  border: 1px solid var(--grayscale-g-6);
+  display: flex;
+  justify-content: flex-start;
+
+  color: var(--grayscale-g-2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 12px;
+  font-feature-settings: 'ss04' on;
+}
+.input-box{
+    position: relative;
+    /* margin: 8px; */
+}
+.floating-text{
+    position: absolute;
+    left: 12px;
+    /* padding: 10px; */
+    top: -8px;
+    background-color: var(--brand-ghost-white) ;
+    font-size: 12px;
+    color: var(--grayscale-g-3);
+    font-weight: 400;
+    font-style: normal;
+}
